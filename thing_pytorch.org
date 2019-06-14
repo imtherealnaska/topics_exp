@@ -2,8 +2,8 @@
 
 1) /for multiplication of matrices/
 use torch.mm to avoid broadcasting provided by the torch.matmul  , but mm is more strict when it comes to tensor shape .
-matmul : easy mistakes</br>
-mm     : does what you say 
+-matmul : easy mistakes
+-mm     : does what you say 
 
 
 *writing own forward and backward methods*
@@ -27,9 +27,9 @@ so convert it into torch.floatTensor
 
 1. reshape() : has 3 parameters can use view as in torch . output will be a view object or a copy 
 2. *Broadcast rules* :
-                       <br/>a.  when operating on 2 arrays numpy compares the shape element-wise , starts with the trailing dimensions 
-                           and works its way forward</br>
-                       b.  if they are equal</br> 
-                       c.  if one of them is 1 ,</br> 
-                       d.  image(256*256*3) scale (3) result  , dimension with size 1 is stretched or copied</br> 
-                       e.  A(4d array) 8*1*6*1 and B(7*1*5) the result is 8*7*6*5
+                       1.  when operating on 2 arrays numpy compares the shape element-wise , starts with the trailing dimensions 
+                           and works its way forward
+                       2.  if they are equal
+                       3.  if one of them is 1  
+                       4.  image(256*256*3) scale (3) result  , dimension with size 1 is stretched or copied 
+                       5.  A(4d array) 8*1*6*1 and B(7*1*5) the result is 8*7*6*5
