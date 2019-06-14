@@ -1,0 +1,34 @@
+*Main things to note*
+
+1) /for multiplication of matrices/
+use torch.mm to avoid broadcasting provided by the torch.matmul  , but mm is more strict when it comes to tensor shape .
+matmul : easy mistakes
+mm     : does what you say 
+
+
+*writing own forward and backward methods*
+
+2) /use autograd.Function to write own forward and backward methods/
+then it can be applied explicityl specifying to the model by using <ClassName.apply> 
+
+3) /torch.mean() doesnt work on byteTensors/
+so convert it into torch.floatTensor
+
+4) Datasets.ImageFolder() :
+5) Do augumentation on train data not test data
+6) check *shape* regularly
+7) *Optimiser.zero_grad()*
+8) to avoid computation overhead , use *torch.eval()* when in val 
+9) /if in train mode use torch.train()/ 
+
+
+ */numpy/* :
+
+
+1. reshape() : has 3 parameters can use view as in torch . output will be a view object or a copy 
+2. *Broadcast rules* : a.  when operating on 2 arrays numpy compares the shape element-wise , starts with the trailing dimensions 
+                           and works its way forward
+                       b.  if they are equal 
+                       c.  if one of them is 1 , 
+                       d.  image(256*256*3) scale (3) result  , dimension with size 1 is stretched or copied 
+                       e.  A(4d array) 8*1*6*1 and B(7*1*5) the result is 8*7*6*5
