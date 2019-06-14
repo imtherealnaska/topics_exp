@@ -14,9 +14,9 @@
 /without trial and error .automated one ofcourse./
 
 *USING BACK_PROP*:
-1.*No need to know what hidden units are doing* . Instead of using desired activations to train hidden units ,use derivatives with-respect-to hidden activities
-2.*Each activation can have  different effects on different output units* 
-3.*error derivatives tells how fast error chnages with respect to the hidden activity*
+    1. *No need to know what hidden units are doing* . Instead of using desired activations to train hidden units ,use derivatives with-respect-to hidden activities
+    2. *Each activation can have  different effects on different output units* 
+    3. *error derivatives tells how fast error changes with respect to the hidden activity*
 
 
 
