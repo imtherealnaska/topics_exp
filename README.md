@@ -12,7 +12,7 @@
   <tr>
     <td>1</td>
     <td>Backpropagation</td>
-    <td><a href="https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf" >click_here</a></td>
+    <td><a href="https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf" target="_blank">click_here</a></td>
   </tr>
   
   </table>
