@@ -2,8 +2,8 @@
 
 1) /for multiplication of matrices/
 use torch.mm to avoid broadcasting provided by the torch.matmul  , but mm is more strict when it comes to tensor shape .
--matmul : easy mistakes
--mm     : does what you say 
+/matmul : easy mistakes/
+*mm     : does what you say* 
 
 
 *writing own forward and backward methods*
