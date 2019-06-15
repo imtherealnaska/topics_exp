@@ -1,7 +1,7 @@
 ## Welcome to topics_exp
 
 
-<i>This is where I try to explain deep learning papers</i><br/>
+<i>This is where I try to explain deep learning papers and Concepts</i><br/>
 <b>blog post at medium</b> : https://medium.com/@naskastark11/back-propagation-my-understanding-f536e4719bb7
 <table border=1px>
   <tr>
@@ -12,7 +12,7 @@
   <tr>
     <td>1</td>
     <td>Backpropagation</td>
-    <td><a href="https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf" target="blank">click_here</a></td>
+    <td><a href="https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf" >[paper]</a></td>
   </tr>
   
   </table>
