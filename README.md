@@ -14,5 +14,9 @@
     <td>Backpropagation</td>
     <td><a href="https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf" >[paper]</a></td>
   </tr>
-  
+  <tr>
+    <td>2</td>
+    <td>Optimizers</td>
+    <td>Not a paper</td>
+  </tr>
   </table>
