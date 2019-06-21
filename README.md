@@ -24,5 +24,12 @@
     <td>3</td>
     <td>Convolutional Neural Networks</td>
     <td>Not a paper</td>
-      </tr></i>
+      </tr>
+  <tr>
+    <td>4</td>
+    <td>Visualizing and Understanding Convolutional Networks</td>
+    <td><a href="https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf">[paper]</a></td>
+  </tr>
+  
+  </i>
   </table>
